@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:google_fonts/google_fonts.dart';
+// import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+// import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp(appTitle: "Burger Queen",));
@@ -82,8 +82,8 @@ class MyHomePage extends StatelessWidget {
                           ],
                         ),
                         Container(
-                          padding: EdgeInsets.all(8),
-                          margin: EdgeInsets.all(8),
+                          padding: const EdgeInsets.all(8),
+                          margin: const EdgeInsets.all(8),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(8),
                             color: Colors.pink
